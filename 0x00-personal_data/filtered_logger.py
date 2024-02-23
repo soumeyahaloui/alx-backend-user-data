@@ -2,13 +2,9 @@
 """ module for filtering logs.
 """
 import os
-
 import re
-
 import logging
-
 import mysql.connector
-
 from typing import List
 
 
@@ -102,4 +98,5 @@ class RedactingFormatter(logging.Formatter):
 
 if __name__ == "__main__":
     main()
+
 
